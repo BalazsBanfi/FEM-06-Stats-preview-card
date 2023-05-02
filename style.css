@@ -12,7 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 /*****************
@@ -78,7 +77,9 @@ main {
 }
 
 h1 {
+  padding: 1rem 0.5rem 1.25rem;
   font-size: 1.75rem;
+  font-weight: 700;
   color: var(--white);
 }
 
@@ -88,15 +89,28 @@ h1 > span {
 
 .textSection > p {
   color: var(--white-mainParagraph);
+
+  font-size: 15px;
+  line-height: 1.5;
 }
 
+/******************
+***Stats section***
+*******************/
+
 .stats {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
 }
 
+.items {
+  padding: 0.5rem;
+}
+
 .items > h2 {
   color: var(--white);
+  padding: 0.25rem;
 }
 
 .items > p {
