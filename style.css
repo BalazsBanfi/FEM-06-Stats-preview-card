@@ -1,0 +1,56 @@
+:root {
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+  
+    --veryDarkBlue-mainBg: hsl(217, 54%, 11%);
+    --veryDarkBlue-cardBg: hsl(216, 50%, 16%);
+    --veryDarkBlue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*****************
+  ***Body section***
+  ******************/
+  
+  body {
+    min-height: 100vh;
+    padding: 0;
+    background: var(--veryDarkBlue-mainBg);
+    display: grid;
+    place-items: center;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  main {
+    min-height: 100vh;
+    width: 375px;
+    margin: 0;
+    padding: 1.5rem;
+    display: grid;
+    place-items: center;
+  }
+  
+  /*******************
+  ***Flex container***
+  ********************/
+  
+  .container {
+    max-width: 100%;
+    padding: 1.5rem;
+    background: var(--veryDarkBlue-cardBg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  /****************
+  ***Img section***
+  *****************/
+  
