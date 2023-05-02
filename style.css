@@ -67,3 +67,39 @@ main {
   display: block;
 }
 
+/*****************
+***Text section***
+******************/
+
+.textSection {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 1.75rem;
+  color: var(--white);
+}
+
+h1 > span {
+  color: var(--softViolet-accent);
+}
+
+.textSection > p {
+  color: var(--white-mainParagraph);
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.items > h2 {
+  color: var(--white);
+}
+
+.items > p {
+  color: var(--white-statHeadings);
+  font-variant: small-caps;
+}
